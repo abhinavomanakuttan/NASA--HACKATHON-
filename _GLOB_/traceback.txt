@@ -1,0 +1,24 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 150, in script
+    g " Tree canopy cover measurement complete. The forest has a canopy cover of 85%"
+ValueError: incomplete format
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 150, in script
+    g " Tree canopy cover measurement complete. The forest has a canopy cover of 85%"
+  File "C:\Users\ASUS\Desktop\havox\renpy\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "C:\Users\ASUS\Desktop\havox\renpy\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\ASUS\Desktop\havox\renpy\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 121, in say
+    what = what % tag_quoting_dict
+ValueError: incomplete format
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.3.3.24100402+nightly
+_GLOB_ 1.0
+Sun Oct  6 12:11:45 2024

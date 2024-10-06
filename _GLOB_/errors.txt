@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 39: expected statement.
+    "game: tests the water quality and notes the data.",color="5cf9d1"
+                                                       ^
+
+Ren'Py Version: Ren'Py 8.3.3.24100402+nightly
+Sun Oct  6 11:15:23 2024
